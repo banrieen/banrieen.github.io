@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# IDE settings
+.idea
+.vscode
+.sonarlint
+.ipynb_checkpoints
