@@ -1,3 +1,9 @@
+个人主页
+=================================================
+
+原型
+-------------------------------------------------
+
 # [Start Bootstrap - Clean Blog](https://startbootstrap.com/template-overviews/clean-blog/)
 
 [Clean Blog](http://startbootstrap.com/template-overviews/clean-blog/) is a stylish, responsive blog theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working PHP contact form.
@@ -72,3 +78,27 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 ## Copyright and License
 
 Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-clean-blog/blob/gh-pages/LICENSE) license.
+
+集成
+---------------------------------------------------
+将 Sphinx Doc 集成到个人主页下，示例则在 notebook 上；通过页面跳转来关联。
+
+个人主页的内容和目录:
+
+```
+./index
+   .. CSDN Latest Blog
+   .. Zhihu Latest article
+../Festival
+   ..Festival news Or article
+../ Notebook
+   ..docs/index
+../About
+   ..Personale Info
+
+```
+
+### Issue：
+   1. Sphinx 需要只同步 source 目录和配置。
+   2. 就同步为 notebook 目录，此处文档为 notebook 的归类比较和总结
+   3. 主页内容部分同步爬取自己的 CSDN专栏，或 知乎专栏最新发表的文章
