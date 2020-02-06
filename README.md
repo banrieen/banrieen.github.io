@@ -97,6 +97,7 @@ Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https:/
    ..Personale Info
 
 ```
+   * 同步上传到 gitee 上，提高近 3 倍的加载速度。 
 
 ### Issue：
    1. Sphinx 需要只同步 source 目录和配置。
