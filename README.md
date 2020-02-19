@@ -81,7 +81,7 @@ Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https:/
 
 集成
 ---------------------------------------------------
-将 Sphinx Doc 集成到个人主页下，示例则在 notebook 上；通过页面跳转来关联。
+将 Sphinx web 集成或 readthedoc 链接到个人主页下，示例则在 notebook 上。
 
 个人主页的内容和目录:
 
