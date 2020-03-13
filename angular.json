@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "banrieen": {
+    "homepage": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/banrieen",
+            "outputPath": "dist/homepage",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -62,18 +62,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "banrieen:build"
+            "browserTarget": "homepage:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "banrieen:build:production"
+              "browserTarget": "homepage:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "banrieen:build"
+            "browserTarget": "homepage:build"
           }
         },
         "test": {
@@ -110,19 +110,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "banrieen:serve"
+            "devServerTarget": "homepage:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "banrieen:serve:production"
+              "devServerTarget": "homepage:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "banrieen",
+  "defaultProject": "homepage",
   "cli": {
-    "analytics": "3f960013-6152-4262-803d-30f87ae3a310"
+    "analytics": "e4610780-345c-4a02-9cba-6b1df3d7a966"
   }
 }

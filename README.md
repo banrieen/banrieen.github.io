@@ -1,62 +1,27 @@
-个人主页
-=================================================
+# Homepage
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
 
-页面内容设计:
---------------------------------------------------
+## Development server
 
-1. 超链接：
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-   CSDN Blog,  Notebook,  知乎, github/gitee,  微信公众号
+## Code scaffolding
 
-2. 更新内容垂直分栏：
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-   **爬取核心媒体最新发表的文章**
-   * top 话题 -》 知乎
-   * 国际头条——必应 news
-   * 科技头条——infoq
-   * 体育头条——腾讯体育
-   * 出行（汽车）新闻——去哪儿
+## Build
 
-3. 优化：
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-   * 同步上传到 gitee 上，提高近 3 倍的加载速度。 
+## Running unit tests
 
-   * 主页内容部分同步爬取自己的 CSDN专栏，或 知乎专栏最新发表的文章
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-   * 本地抓取，不依赖后端服务
+## Running end-to-end tests
 
-   * 支持 ipv6 端对端链接
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-4. 相关内容
------------------------------------------------------
+## Further help
 
-### 个体
-
-* 一个项目： ALan 个人助手
-   + 业务推广软文 =》采芑文案 / 多个栏目投稿：诗刊，读者，青年，十月，知乎，豆瓣等
-
-* 软媒综合体
-   * 一个公众号：微信公众号（采芑札记）聚合所有信息
-      * 一个文档： 粤桂札记 =》 知乎专栏
-      * 一个博客： CSDN，技术类；
-         * 一个笔记： notebook，依赖第三方教学代码库（会整理出来）
-      * 一个短视频栏目 ： 快手
-
-* Office(Excel)办公加载项： ReactOffice
-
-* 媒体链接和引流
-
-   CSDN Blog -》微信公众号，快手，淘宝店（支付宝）
-
-   Notebook -》 readme.md CSDN，微信公众号
-
-   知乎 -》 微信公众号，快手，淘宝店（支付宝）, 
- 
-   微信公众号-》CSDN，知乎，快手，微店（微信）
-
-### 营收：数据、服务转化，实物销售
-* 一个官网站点： 待定 
-* 一个微店
-* 一个淘宝店
-* 一个快手店
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
