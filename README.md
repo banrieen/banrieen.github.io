@@ -66,7 +66,7 @@
 --------------------------------------------------
 1. 更新 homepage 库
 2. 在本地 homepage 下构建：“ng build --prod --output-path dist/ --base-href=https://banrieen.github.io/;”
-3. 将构建完成的 dist/ 所有文件同步到 banrieen.github.io 库中
+3. 将构建完成的 dist/[project] 所有文件同步到 banrieen.github.io 库中
 4. 同步 banrieen.github.io 及其分支 "gh-pages" 
 5. 发布 github.io: "ngh -d . -S"
 6. 在浏览器中打开 banrieen.github.io 验证是否发布成功。
