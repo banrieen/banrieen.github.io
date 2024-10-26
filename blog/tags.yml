@@ -17,3 +17,9 @@ hola:
   label: Hola
   permalink: /hola
   description: Hola tag description
+
+AI:
+  label: AI Product
+
+Robot:
+  label: AI Robot

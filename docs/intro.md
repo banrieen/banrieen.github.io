@@ -2,46 +2,63 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 系统文案体系
 
-Let's discover **Docusaurus in less than 5 minutes**.
+系统设计，规划，研发和推广更新体系计划。
 
-## Getting Started
+书籍章节，在线文档协作，按月定期版本更新
 
-Get started by **creating a new site**.
+方案-计划-配置-文案-视频
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
-
-### What you'll need
-
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+## 产品方案
++ 产品概念
++ 解决方案
++ 市场方案
+## 产品设计--在线协作文档
++ 交互设计
++ 软硬件功能设计
+    - 产品故事线-业务体系活动图-时序图
+    - 系统框架-组件结构-部署拓扑图
+    - 软硬件配置-网络需求
++ 指标（材料，环境）设计
++ 系统设计文档(PRD)
+  
+  以书籍结构整理
+  
+## 研发项目规划--在线协作表格
++ 详细需求调研分析
+    - 用户环境
+    - 市场调研
+    - 竞品分析
++ 版本规划
++ 【里程碑计划】
++ 研发环境与质量管理
+    - 数据库-[postgresql,Mariadb]
+    - 文件存储-[minIO]
+    - 数据标注-[label-studio]
+    - 监控-[protheus，OpenTelemetry，grafana]
+    - 多任务调度-[rust-tokio]
+    - 产品管理-[github-project]
+    - 大模型-[AnythingLLM,ollama,AutoGen,llama-stack]
+    - 画布-[firefox-automa,PowerAutomate]
+    - 模型-[onnx,mlflow,airflow,candle]
+    - 分析图表-[polter]
+    - 任务部署-[k3s]
+    - 代码规划-[Service,agent-plugin]
++ 敏捷开发冲刺
++ 样品-数据准备
++ 验证事项跟进
++ 部署运维
+## 发布--github
++ 版本说明
++ 系统软硬件文件归档
+    - 软件包
+    - 硬件包
+    - 规格说明书
+    - 产品技术(参数-API)文档
+    - 验证报告-功能-性能-安全
++ 用户推广文档
+## 维护更新--github
++ 跟进用户社区反馈的问题
++ 案例-文档-视频
++ 开放协作-构建

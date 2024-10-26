@@ -8,9 +8,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Banrieen`s Page',
-  tagline: '智能机械助手',
-  favicon: 'img/favicon.ico',
+  title: 'banrieen.github.io',
+  tagline: 'Banrieen` page',
+  favicon: 'img/favicon-robot.ico',
 
   // Set the production url of your site here
   url: 'https://your-docusaurus-site.example.com',
@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'caiqi', // Usually your GitHub org/user name.
-  projectName: 'cuckoo', // Usually your repo name.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'banrieen.github.io', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -31,7 +31,7 @@ const config = {
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-CN',
-    locales: ['zh-CN'],
+    locales: ['en','zh-CN'],
   },
 
   presets: [
@@ -73,22 +73,29 @@ const config = {
     ({
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
+      
       navbar: {
-        title: 'My Site',
+        title: 'Banrieen`s page',
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          alt: 'banrieen.github.io',
+          src: 'img/logo.png',
         },
         items: [
+          {
+            type: 'docsVersionDropdown',
+          },
+          {
+            type: 'localeDropdown',
+          },
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '文章',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: '博客', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/banrieen/banrieen.github.io',
             label: 'GitHub',
             position: 'right',
           },
@@ -101,7 +108,7 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                label: '文章',
                 to: '/docs/intro',
               },
             ],
@@ -127,7 +134,7 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
+                label: '博客',
                 to: '/blog',
               },
               {
@@ -137,7 +144,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} OWL Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
