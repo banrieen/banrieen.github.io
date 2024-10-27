@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'banrieen.github.io',
-  tagline: 'Banrieen` page',
+  title: 'Banrieen` page',
+  tagline: 'Project Info',
   favicon: 'img/favicon-robot.ico',
 
   // Set the production url of your site here
@@ -22,7 +22,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'banrieen', // Usually your GitHub org/user name.
   projectName: 'banrieen.github.io', // Usually your repo name.
-  deploymentBranch: "master",
+  deploymentBranch: "main",
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
