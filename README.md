@@ -1,71 +1,50 @@
-# 界北主页
-# Banrieen`s Page
+# 个人主页
+## Banrieen`s Page
 
 
-页面内容设计:
---------------------------------------------------
-
-1. 超链接：
-
-   CSDN Blog,  Notebook,  知乎, github/gitee,  微信公众号
-
-2. 更新内容垂直分栏：
-
-   **爬取最新文章**
-   * top 话题 -》 知乎
-   * 科技头条
-   * 体育头条
-   * 出行（汽车）新闻
-
-3. 优化：
-
-   * 同步上传到 gitee 上，提高近 3 倍的加载速度。 
-
-   * 主页内容部分同步爬取自己的 CSDN专栏，或 知乎专栏最新发表的文章
-
-   * 本地抓取，不依赖后端服务
-
-   * 支持 ipv6 端对端链接
-
-4. 相关内容
------------------------------------------------------
-
-### 个体
+### 主题内容:
 
 * 一个项目： ALan 个人助手
    + 业务推广软文 =》采芑文案 / 多个栏目投稿：读者，青年，知乎等
 
 * 软媒综合体
-   * 一个公众号：微信公众号（采芑札记）聚合所有信息
-      * 一个文档： 粤桂札记 =》 知乎专栏
-      * 一个博客： CSDN，技术类；
-         * 一个笔记： notebook，依赖第三方教学代码库（会整理出来）
-      * 一个短视频栏目 ： 快手
+   + 一个笔记：      Tomorrow Survery（文章和案例实践）
+   + 一个公众号：    微信公众号（寥廓星空）聚合所有信息
+   * 一个专栏博客：   知乎专栏(CSDN,hacknews)
+   * 一个短视频栏目： 视频号，快手，抖音等
 
+### 链接推广
+
+1. 技术博客：
+
+   CSDN Blog,  Notebook,  知乎, github/gitee,  微信公众号
+
+2. 更新垂直内容分栏：
+
+   * 科技头条
+   * 体育头条
+   * 出行（汽车）新闻
+
+3. 国内社区同步：
+
+   * 同步到 gitee 
+
+   * 本地执行，不依赖后端服务
+
+   * 支持 ipv6 
+
+### 商业收益建设，服务转化，实物销售
+* 一个微店
 * Office(Excel)办公加载项： ReactOffice
 
 * 媒体链接和引流
 
-   CSDN Blog -》微信公众号，快手，淘宝店（支付宝）
 
-   Notebook -》 readme.md CSDN，微信公众号
+### 部署方法
 
-   知乎 -》 微信公众号，快手，淘宝店（支付宝）, 
- 
-   微信公众号-》CSDN，知乎，快手，微店（微信）
-
-### 营收：数据、服务转化，实物销售
-* 一个官网站点： 待定 
-* 一个微店
-
-
-部署方法
---------------------------------------------------
-1. 更新 homepage 库
-2. 在本地 homepage 下构建：“ng build --prod --output-path dist/ --base-href=https://banrieen.github.io/;”
-3. 将构建完成的 dist/[project] 所有文件同步到 banrieen.github.io 库中
-4. 同步 banrieen.github.io 及其分支 "gh-pages" 
-5. 发布 github.io: "ngh -d . -S"
-6. 在浏览器中打开 banrieen.github.io 验证是否发布成功。
-
+1. 提交内容到 github
+2. 本地验证 `yarn run start`
+3. 部署到 github page `yarn deploy`
+4. 需要实现配置好 [docusaurus.config.js](https://docusaurus.org.cn/docs/deployment)
+5. 登录 `https://banrieen.github.io`
 
