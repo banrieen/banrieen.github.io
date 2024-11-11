@@ -4,36 +4,42 @@
 [personal.page]
 repo_target = "个人主页"
 repo_name = "banrieen.github.io "
+CN_name = "主页"
 repo_link = ""
 release = ["github",]
 
 [repo.doc]
 repo_target = "产品文库和博客"
-repo_name = "OWL"
+repo_name = "cuckoo"
+CN_name = "喜鹊"
 repo_link = ""
 release = ["github","hacknews","zhihu","wechat"]
 
 [repo.test]
 repo_target = "数据构造，测试工具库"
-repo_name = "cuckoo"
+repo_name = "OWL"
+CN_name = "猫头鹰"
 repo_link = ""
 release = "github"
 
 [repo.survey]
 repo_target = "数学、通信、多媒体和计算机系统研究"
 repo_name = "TomorrowSurvey"
+CN_name = "明日生机"
 repo_link = ""
 release = ["github","hacknews","zhihu","wechat"]
 
 [repo.gui]
 repo_target = "人机交互-机器人界面"
 repo_name = "daoist"
+CN_name = "天池"
 repo_link = ""
 release = ["github","windows OS","ios","Android","debian"]
 
 [repo.service]
 repo_target = "机器人任务执行"
 repo_name = "daoist-server"
+CN_name = "后土"
 repo_link = ""
 release = ["debian","opensuse"]
 
@@ -46,5 +52,6 @@ release = ["debian","opensuse"]
 [repo.ML]
 repo_target = "机器学习-自动化"
 repo_name = "inference"
+CN_name = "梦境"
 repo_link = ""
 release = ["github","windows OS","ios","Android","debian"]
