@@ -45,7 +45,7 @@ release = ["debian","opensuse"]
 
 [repo.datarepo]
 repo_target = "数据源"
-repo_name = "datalib"
+repo_name = "wave"
 repo_link = ""
 release = ["debian","opensuse"]
 
