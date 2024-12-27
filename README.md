@@ -7,15 +7,15 @@
 ### 媒体内容:
 
 1. 软媒综合体
-   + 一个文库：      TomorrowSurvery（文章和案例实践）
-   + 一个公众号：    微信公众号（寥廓星空）聚合所有信息
-   * 一个专栏博客：   知乎专栏(CSDN,hacknews)
-   * 一个短视频栏目： 视频号，快手，抖音等
+   + 1个文库：      [TomorrowSurvery](https://github.com/banrieen/TomorrowSurvey)
+   + 1个微信公众号： ![TomorrowSurvery]()
+   * 2个专栏：   [TomorrowSurvery](https://www.zhihu.com/people/To_Be_Sunny)
+               [digitaltrends](https://www.digitaltrends.com/)
+   * 一个短视频栏目： B站，抖音， Youtobe等
 
-2. 更新垂直内容分栏：
+2. 更新垂直内容：
 
-   * 科技头条[能源，武力，生产]
-   * 战事
+   * 科技头条[能源，机器人，生产]
    * 出行（飞行）
 
 3. 国内社区同步：
@@ -27,14 +27,4 @@
 * 一个微店
 * Office(Excel)办公加载项： ReactOffice
 
-* 媒体链接和引流
-
-
-### 部署方法
-
-1. 提交内容到 github
-2. 本地验证 `yarn run start`
-3. 部署到 github page `yarn deploy`
-4. 需要实现配置好 [docusaurus.config.js](https://docusaurus.org.cn/docs/deployment)
-5. 登录 `https://banrieen.github.io`
 

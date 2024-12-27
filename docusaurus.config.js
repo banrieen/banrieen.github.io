@@ -8,7 +8,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Banrieen` page',
+  title: 'Banrieen Page',
   tagline: 'Project Info',
   favicon: 'img/favicon-robot.ico',
 
@@ -75,7 +75,7 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       
       navbar: {
-        title: 'Banrieen`s page',
+        // title: 'Banrieen`s Page',
         logo: {
           alt: 'banrieen.github.io',
           src: 'img/logo.png',
@@ -144,7 +144,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} OWL Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Banrieen Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
